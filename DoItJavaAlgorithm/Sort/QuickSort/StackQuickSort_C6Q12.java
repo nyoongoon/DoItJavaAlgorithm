@@ -35,7 +35,7 @@ public class StackQuickSort_C6Q12 {
 					}
 					if (pl <= pr) {
 						swap(a, pl++, pr--);
-					}
+					}	
 				} while (pl <= pr);
 
 				// left가 0 경우엔 어떡하지?
